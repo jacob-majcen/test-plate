@@ -1,13 +1,9 @@
 {
   "name": "rr-boilerplate",
   "description": "React&Redux boilerplate",
-  "author": "Oleksandr Tarasiuk",
   "license": "MIT",
   "version": "0.0.1",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/a-tarasyuk/rr-boilerplate"
-  },
+
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && webpack --config webpack/prod.config.babel.js --progress --mode=production",
